@@ -1,0 +1,7 @@
+PERGUNTA1
+
+Uma alternativa para essa situação é realizar um carga na tabela de desenvolvimento da tabela produto com os registros da tabela já existentes através de operações em SQL. Mas antes disso,  adiciona um registro "Não definida" na tabela de categoria e cria uma nova coluna na tabela produto como chave secundaria e repassa chave primaria de categoria criada anterior no momento da carga. E posteriomente a responsabilidade atualização da categoria correto caberia  operador com tipo. 
+
+PERGUNTA2
+
+Ao definir um limitador do registros solicitado tanto no back  quanto front-end por meio da estratégia de  paginação. Com isso, evitar-se carregar todos os registros tudo de uma vez.  Dessa forma reduz o tempo da consulta  e reduz a utilização de memória para armazenar os registros temporariamente. Além do mais facilita a visualização pelo usuário.
